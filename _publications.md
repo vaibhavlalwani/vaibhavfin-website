@@ -1,13 +1,14 @@
 ## Peer-reviewed publications
 
 <div class="pub-list">
-<div class="pub pub-nopitch">
+<div class="pub">
 <div class="pub-main">
   <div class="pub-title">Factor timing with transaction costs</div>
   <div class="pub-authors"><span class="me">Vaibhav Lalwani</span> and Ashok Gunturu</div>
   <div class="pub-meta"><span class="venue">Borsa Istanbul Review</span> · 100913 · 2026</div>
   <div class="pub-links"><a class="pub-link" href="https://doi.org/10.1016/j.bir.2026.100913">DOI</a></div>
 </div>
+<div class="pub-pitch">Times factor exposures using 50 net-of-cost smart-beta factors, driven by their past returns and covariances. The dynamic strategy beats a static 1/N benchmark on risk-adjusted returns even after 2000&#x27;s fading premiums, with low turnover and results robust to specification choices.</div>
 </div>
 <div class="pub">
 <div class="pub-main">
@@ -36,13 +37,14 @@
 </div>
 <div class="pub-pitch">Shows that countries producing more diverse and unique goods tend to have calmer stock markets. The effect is concentrated in emerging markets and only kicks in past a complexity threshold.</div>
 </div>
-<div class="pub pub-nopitch">
+<div class="pub">
 <div class="pub-main">
   <div class="pub-title">Finfluencer recommendations</div>
   <div class="pub-authors"><span class="me">Vaibhav Lalwani</span></div>
   <div class="pub-meta"><span class="venue">Economics Letters</span> · 255, 112511 · 2025</div>
   <div class="pub-links"><a class="pub-link" href="https://doi.org/10.1016/j.econlet.2025.112511">DOI</a></div>
 </div>
+<div class="pub-pitch">Studies stock calls from Indian financial YouTubers. Finfluencers favour past winners with heavy trading, rich valuations, and high intraday activity, and the number of their recommendations predicts future returns.</div>
 </div>
 <div class="pub">
 <div class="pub-main">
@@ -71,21 +73,23 @@
 </div>
 <div class="pub-pitch">Builds portfolios that track unexpected CPI inflation in the BRICS markets. Statistical tracking beats the benchmarks, especially when inflation uncertainty is low.</div>
 </div>
-<div class="pub pub-nopitch">
+<div class="pub">
 <div class="pub-main">
   <div class="pub-title">Climate risks, corporate bonds, and economic uncertainty</div>
   <div class="pub-authors"><span class="me">Vaibhav Lalwani</span></div>
   <div class="pub-meta"><span class="venue">Economics Letters</span> · 244, 111984 · 2024</div>
   <div class="pub-links"><a class="pub-link" href="https://doi.org/10.1016/j.econlet.2024.111984">DOI</a></div>
 </div>
+<div class="pub-pitch">Shows corporate bonds that move with global-warming news earn lower returns. The gap shows up mainly in periods of high economic policy uncertainty, when investors pay up for climate-resilient bonds.</div>
 </div>
-<div class="pub pub-nopitch">
+<div class="pub">
 <div class="pub-main">
   <div class="pub-title">Incorporating green assets in equity portfolios</div>
   <div class="pub-authors"><span class="me">Vaibhav Lalwani</span></div>
   <div class="pub-meta"><span class="venue">Finance research letters</span> · 59, 104815 · 2023</div>
   <div class="pub-links"><a class="pub-link" href="https://doi.org/10.1016/j.frl.2023.104815">DOI</a></div>
 </div>
+<div class="pub-pitch">Adds green-asset ETFs to mean-variance portfolios. Mixing them with broad market indices lifts returns and Sharpe ratios, survives transaction costs, and long-horizon investors are more likely to beat the benchmark.</div>
 </div>
 <div class="pub">
 <div class="pub-main">

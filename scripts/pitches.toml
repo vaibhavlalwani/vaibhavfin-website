@@ -9,11 +9,15 @@
 
 # ---- Peer-reviewed ----
 W7135175264 = "Tests whether climate-news betas are priced in US and Chinese stocks, and shows the answer swings widely with innocuous modelling choices. After correcting for multiple testing, no climate-risk premium survives."
+W7213254616 = "Times factor exposures using 50 net-of-cost smart-beta factors, driven by their past returns and covariances. The dynamic strategy beats a static 1/N benchmark on risk-adjusted returns even after 2000's fading premiums, with low turnover and results robust to specification choices."
+W4412657378 = "Studies stock calls from Indian financial YouTubers. Finfluencers favour past winners with heavy trading, rich valuations, and high intraday activity, and the number of their recommendations predicts future returns."
 W4410762803 = "Builds an asset-pricing factor from Sharpe-ratio-maximising mean-variance weights, and finds it is priced in the cross-section of stocks and bonds, out of sample and across countries."
 W4414479327 = "Shows that countries producing more diverse and unique goods tend to have calmer stock markets. The effect is concentrated in emerging markets and only kicks in past a complexity threshold."
 W4415987789 = "Shows that research-design choices move machine-learning portfolio returns so much that their nonstandard errors are up to five times the usual standard errors. Even so, ML still earns net-of-cost returns for about a third of portfolios."
+W4402623492 = "Shows corporate bonds that move with global-warming news earn lower returns. The gap shows up mainly in periods of high economic policy uncertainty, when investors pay up for climate-resilient bonds."
 W4404935683 = "Builds portfolios that track unexpected CPI inflation in the BRICS markets. Statistical tracking beats the benchmarks, especially when inflation uncertainty is low."
 W4405480518 = "Adapts extreme bounds analysis to out-of-sample forecasting, and finds oil prices carry incremental information for aggregate and sectoral stock returns once combined with other oil variables."
+W4389093063 = "Adds green-asset ETFs to mean-variance portfolios. Mixing them with broad market indices lifts returns and Sharpe ratios, survives transaction costs, and long-horizon investors are more likely to beat the benchmark."
 W4318570892 = "Shows that most NSE factor indices stop earning their past returns once they go live, and none deliver alpha over size, value, and momentum."
 W3202839978 = "Tests 35 characteristics on every listed Indian firm and finds machine learning forecasts beat OLS, with the best portfolios earning significant returns."
 W3195573393 = "Finds sparse, short-lived signals in minute-by-minute cryptocurrency returns, with LASSO forecasts beating the usual benchmarks."
