@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research and Publications",
+    "section": "",
+    "text": "Below, you’ll find details of my research work. For questions on any specific publication, feel free to send me an email."
+  },
+  {
+    "objectID": "research.html#peer-reviewed-publications",
+    "href": "research.html#peer-reviewed-publications",
+    "title": "Research and Publications",
+    "section": "Peer-reviewed publications",
+    "text": "Peer-reviewed publications\n\n\n\n\nFactor timing with transaction costs\n\n\nVaibhav Lalwani and Ashok Gunturu\n\n\nBorsa Istanbul Review · 100913 · 2026\n\n\nDOI\n\n\n\nTimes factor exposures using 50 net-of-cost smart-beta factors, driven by their past returns and covariances. The dynamic strategy beats a static 1/N benchmark on risk-adjusted returns even after 2000's fading premiums, with low turnover and results robust to specification choices.\n\n\n\n\n\nClimate news betas and risk premia\n\n\nVaibhav Lalwani\n\n\nEnergy Economics · 157, 109289 · 2026\n\n\nDOI\n\n\n\nTests whether climate-news betas are priced in US and Chinese stocks, and shows the answer swings widely with innocuous modelling choices. After correcting for multiple testing, no climate-risk premium survives.\n\n\n\n\n\nEmpirical Asset Pricing via Machine Learning: The Role of Research Design Choices\n\n\nVaibhav Lalwani, Vedprakash Vasantrao Meshram and Varun Jindal\n\n\nEuropean Financial Management · 32(3), 816–833 · 2025\n\n\nDOIPDF\n\n\n\nShows that research-design choices move machine-learning portfolio returns so much that their nonstandard errors are up to five times the usual standard errors. Even so, ML still earns net-of-cost returns for about a third of portfolios.\n\n\n\n\n\nDoes economic complexity tame the stock markets? International evidence\n\n\nVaibhav Lalwani and Kirti Saxena\n\n\nApplied Economics · 1–17 · 2025\n\n\nDOI\n\n\n\nShows that countries producing more diverse and unique goods tend to have calmer stock markets. The effect is concentrated in emerging markets and only kicks in past a complexity threshold.\n\n\n\n\n\nFinfluencer recommendations\n\n\nVaibhav Lalwani\n\n\nEconomics Letters · 255, 112511 · 2025\n\n\nDOI\n\n\n\nStudies stock calls from Indian financial YouTubers. Finfluencers favour past winners with heavy trading, rich valuations, and high intraday activity, and the number of their recommendations predicts future returns.\n\n\n\n\n\nMean-variance optimization and the cross-section of stock returns\n\n\nVaibhav Lalwani\n\n\nGlobal Finance Journal · 66, 101130 · 2025\n\n\nDOI\n\n\n\nBuilds an asset-pricing factor from Sharpe-ratio-maximising mean-variance weights, and finds it is priced in the cross-section of stocks and bonds, out of sample and across countries.\n\n\n\n\n\nForecasting equity returns with oil prices: addressing model choice uncertainty\n\n\nVaibhav Lalwani and Udayan Sharma\n\n\nApplied Economics · 57(5), 566–582 · 2024\n\n\nDOI\n\n\n\nAdapts extreme bounds analysis to out-of-sample forecasting, and finds oil prices carry incremental information for aggregate and sectoral stock returns once combined with other oil variables.\n\n\n\n\n\nInflation hedging via tracking portfolios in the BRICS markets\n\n\nVedprakash Vasantrao Meshram and Vaibhav Lalwani\n\n\nCogent Economics & Finance · 12(1) · 2024\n\n\nDOI\n\n\n\nBuilds portfolios that track unexpected CPI inflation in the BRICS markets. Statistical tracking beats the benchmarks, especially when inflation uncertainty is low.\n\n\n\n\n\nClimate risks, corporate bonds, and economic uncertainty\n\n\nVaibhav Lalwani\n\n\nEconomics Letters · 244, 111984 · 2024\n\n\nDOI\n\n\n\nShows corporate bonds that move with global-warming news earn lower returns. The gap shows up mainly in periods of high economic policy uncertainty, when investors pay up for climate-resilient bonds.\n\n\n\n\n\nIncorporating green assets in equity portfolios\n\n\nVaibhav Lalwani\n\n\nFinance research letters · 59, 104815 · 2023\n\n\nDOI\n\n\n\nAdds green-asset ETFs to mean-variance portfolios. Mixing them with broad market indices lifts returns and Sharpe ratios, survives transaction costs, and long-horizon investors are more likely to beat the benchmark.\n\n\n\n\n\nARE FACTOR INVESTING STRATEGIES SUCCESSFUL OUT-OF-SAMPLE: EVIDENCE FROM THE NIFTY INDICES\n\n\nVaibhav Lalwani\n\n\nApplied Finance Letters · 11, 94–108 · 2023\n\n\nDOILink\n\n\n\nShows that most NSE factor indices stop earning their past returns once they go live, and none deliver alpha over size, value, and momentum.\n\n\n\n\n\nThe cross-section of Indian stock returns: evidence using machine learning\n\n\nVaibhav Lalwani and Vedprakash Vasantrao Meshram\n\n\nApplied Economics · 54(16), 1814–1828 · 2021\n\n\nDOI\n\n\n\nTests 35 characteristics on every listed Indian firm and finds machine learning forecasts beat OLS, with the best portfolios earning significant returns.\n\n\n\n\n\nPredicting Intraday cryptocurrency returns – A Sparse Signals approach\n\n\nVaibhav Lalwani and Vedprakash Vasantrao Meshram\n\n\nThe Journal of Prediction Markets · 15(1) · 2021\n\n\nDOI\n\n\n\nFinds sparse, short-lived signals in minute-by-minute cryptocurrency returns, with LASSO forecasts beating the usual benchmarks.\n\n\n\n\n\nStock Market Efficiency in the Time of COVID-19: Evidence from Industry Stock Returns\n\n\nVaibhav Lalwani and Vedprakash Vasantrao Meshram\n\n\nInternational Journal of Accounting & Finance Review · 5(2), 40–44 · 2020\n\n\nDOIPDF\n\n\n\nShows stock-return predictability rose in several industries after COVID-19 hit, suggesting markets became less informationally efficient.\n\n\n\n\n\nMulti-factor asset pricing models in emerging and developed markets\n\n\nVaibhav Lalwani and Madhumita Chakraborty\n\n\nManagerial Finance · 46(3), 360–380 · 2019\n\n\nDOI\n\n\n\nCompares multi-factor models across ten markets. The Fama-French five-factor model prices stocks best in Australia, Canada, China, and the US, but not everywhere.\n\n\n\n\n\nAggregate earnings and gross domestic product: International evidence\n\n\nVaibhav Lalwani and Madhumita Chakraborty\n\n\nApplied Economics · 52(1), 68–84 · 2019\n\n\nDOI\n\n\n\nShows the link between aggregate earnings and real GDP growth holds across eight countries, and that forecasters underreact to aggregate earnings news.\n\n\n\n\n\nInvestor reaction to extreme price shocks in stock markets: A cross country examination\n\n\nVaibhav Lalwani, Udayan Sharma and Madhumita Chakraborty\n\n\nIIMB Management Review · 31(3), 258–267 · 2019\n\n\nDOIPDF\n\n\n\nDocuments over- and under-reaction after extreme intraday moves in the ten largest markets, pointing to exploitable behavioural biases.\n\n\n\n\n\nAsset pricing factors and future economic growth\n\n\nVaibhav Lalwani and Madhumita Chakraborty\n\n\nEconomics Letters · 168, 151–154 · 2018\n\n\nDOI\n\n\n\nTests seven common asset-pricing factors against future GDP and industrial-production growth, and finds only the market factor predicts it. The predictive power reported in earlier studies looks to have faded.\n\n\n\n\n\nQuality investing in the Indian stock market\n\n\nVaibhav Lalwani and Madhumita Chakraborty\n\n\nManagerial Finance · 44(2), 127–141 · 2018\n\n\nDOI\n\n\n\nFinds two of four quality screens beat the market on BSE-500 stocks, even after controlling for size, value, and momentum."
+  },
+  {
+    "objectID": "research.html#working-papers-preprints",
+    "href": "research.html#working-papers-preprints",
+    "title": "Research and Publications",
+    "section": "Working papers & preprints",
+    "text": "Working papers & preprints\n\n\n\n\nYouTubers and Stock Returns\n\n\nVaibhav Lalwani and Vedprakash Vasantrao Meshram\n\n\nSSRN Electronic Journal · 2026\n\n\nDOI\n\n\n\nUses a large language model to pull stock calls from YouTubers across nine countries. The calls predict one-month returns, but not longer-horizon moves or lasting profits.\n\n\n\n\n\nThe Value Relevance of Earnings for Factor Investors\n\n\nVaibhav Lalwani and Madhumita Chakraborty\n\n\nSSRN Electronic Journal · 2024\n\n\nDOI\n\n\n\nShows the aggregate earnings-returns link is stronger for large-cap and growth stocks than for small-cap and value stocks, with implications for factor investors."
+  },
+  {
+    "objectID": "research.html#work-in-progress",
+    "href": "research.html#work-in-progress",
+    "title": "Research and Publications",
+    "section": "Work in progress",
+    "text": "Work in progress\n\nNarratives from YouTube videos.\nAnomalies and asset pricing factors database for India.\nAI for portfolio choice and financial stability.\n\nSome of my working papers are available on my SSRN author page."
+  },
+  {
+    "objectID": "research.html#download",
+    "href": "research.html#download",
+    "title": "Research and Publications",
+    "section": "Download",
+    "text": "Download\n\nBibTeX file for all publications"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vaibhav Lalwani",
+    "section": "",
+    "text": "Associate Professor, Finance\n\n\nXLRI — Xavier School of Management · Delhi-NCR, India\n\n\nGoogle Scholar · LinkedIn · vaibhav@xlri.ac.in\nI am an Associate Professor in Finance at the Xavier Labour Relations Institute’s (XLRI) Delhi-NCR Campus. My research interests include asset pricing, AI/ML in investment strategies, and climate risk.\nI received the Prof. M. J. Manohar Rao Young Economist Award for the Year 2024, awarded by The Indian Econometric Society (TIES)."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Vaibhav Lalwani",
+    "section": "Education",
+    "text": "Education\n\nPhD in Finance and Accounting — Indian Institute of Management Lucknow\nMasters in Finance and Control — Department of Financial Studies, University of Delhi\nBA (Hons) in Business Economics — Shivaji College, University of Delhi"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Vaibhav Lalwani",
+    "section": "Contact",
+    "text": "Contact\nEmail: vaibhav@xlri.ac.in"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I teach (or have taught) the following courses related to Finance and Accounting.\n\n\nManagement Accounting\n\n\nProject Appraisal and Finance\n\n\nFinancial Analytics with R\n\n\nSustainable Finance and Climate Risk\n\n\nBanking and Financial Services Management"
+  },
+  {
+    "objectID": "data-code.html",
+    "href": "data-code.html",
+    "title": "Data and Code",
+    "section": "",
+    "text": "I am an avid R programmer. In this section I share code and material that I have found useful for my research, along with links to other helpful websites containing code and data."
+  },
+  {
+    "objectID": "data-code.html#my-datasets-and-code",
+    "href": "data-code.html#my-datasets-and-code",
+    "title": "Data and Code",
+    "section": "My Datasets and Code",
+    "text": "My Datasets and Code\n\nInternational Asset Pricing Factor Dataset — asset pricing factor portfolios for ten countries from 1993 to 2017 (built from Datastream data). The factors are created using book-to-market, price-to-earnings, investment, momentum, profitability, and quality characteristics. Refer to this paper for more information. These factors are no longer updated."
+  },
+  {
+    "objectID": "data-code.html#free-data-sources-for-research",
+    "href": "data-code.html#free-data-sources-for-research",
+    "title": "Data and Code",
+    "section": "Free Data Sources for Research",
+    "text": "Free Data Sources for Research\n\nAsset Pricing and Factors\n\n\nKen French Data Library — the classic US and international factor portfolios, industry returns, and portfolio sorts.\n\n\nAQR Data Sets — factor, style, and strategy return series (value, momentum, quality, betting-against-beta, and more).\n\n\nRobert Shiller’s Online Data — long-run stock market series, CAPE, earnings, and US home prices.\n\n\n\n\nFirm Fundamentals and Financial Data\n\n\nAswath Damodaran’s Data — cost of capital, betas, country risk premiums, and industry-level financial data.\n\n\nSEC EDGAR — company filings (10-K, 10-Q, and more); bulk financials in the Financial Statement Data Sets.\n\n\nNasdaq Data Link — a large catalogue of free macroeconomic and financial time series."
+  },
+  {
+    "objectID": "data-code.html#websites-and-other-useful-material",
+    "href": "data-code.html#websites-and-other-useful-material",
+    "title": "Data and Code",
+    "section": "Websites and Other Useful Material",
+    "text": "Websites and Other Useful Material\nUseful material for academics in Economics, Finance, and/or Accounting.\n\nReadings / Websites\n\n\nEcon Journal Watch — a nice collection of articles with critical takes on topics of academic interest.\n\n\nCritical Finance Review — critical papers on finance; a must-read for Finance/Accounting academics.\n\n\nAndrew Gelman’s Blog — causality, Bayesian statistics, and statistical pitfalls in pop-science research.\n\n\n\n\nDatasets and Code\n\n\nJKP Factors — asset pricing factor data for many countries from Compustat Global.\n\n\nOpen Source Asset Pricing — data on asset pricing factors plus code for generating factors from CRSP/Compustat.\n\n\n\n\nData Science and Programming\n\n\nTidy Finance — the best way to learn R programming for financial analysis and research."
+  }
+]
