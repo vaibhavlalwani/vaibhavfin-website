@@ -21,7 +21,8 @@ Live site target: **https://www.vaibhavfin.com**
 | `styles.css` | Colours, fonts, and layout — edit freely |
 | `_includes/head.html` | Fonts and `<head>` additions |
 | `scripts/update_publications.py` | Pulls your works from OpenAlex |
-| `scripts/settings.toml` | ORCID, manual links, and notes |
+| `scripts/settings.toml` | ORCID, hidden works, manual links, and notes |
+| `scripts/pitches.toml` | Short plain-text pitch shown beside each paper |
 | `_publications.md`, `publications.bib` | **Auto-generated — do not edit by hand** |
 | `.github/workflows/publish.yml` | Quarterly update + deploy |
 
@@ -87,6 +88,13 @@ Live site target: **https://www.vaibhavfin.com**
   ```toml
   [notes]
   W7213254616 = "Forthcoming."
+  ```
+
+- Edit the short pitch shown to the right of a paper (keyed by OpenAlex id):
+
+  ```toml
+  [pitches]
+  W7213254616 = "One or two plain sentences about the paper."
   ```
 
 Then re-run `python scripts/update_publications.py`.

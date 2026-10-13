@@ -25,6 +25,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SETTINGS_PATH = Path(__file__).resolve().parent / "settings.toml"
+PITCHES_PATH = Path(__file__).resolve().parent / "pitches.toml"
 
 API = "https://api.openalex.org"
 MAILTO = "vaibhav@xlri.ac.in"  # OpenAlex "polite pool" contact
@@ -32,6 +33,18 @@ USER_AGENT = f"vaibhavfin-site/1.0 (mailto:{MAILTO})"
 
 SECTION_PEER = "Peer-reviewed publications"
 SECTION_WORKING = "Working papers & preprints"
+
+
+def load_settings() -> dict:
+    with SETTINGS_PATH.open("rb") as fh:
+        return tomllib.load(fh)
+
+
+def load_pitches() -> dict:
+    if PITCHES_PATH.exists():
+        data = tomllib.loads(PITCHES_PATH.read_text(encoding="utf-8"))
+        return data.get("pitches", {})
+    return {}
 
 
 # ----------------------------------------------------------------------
@@ -159,15 +172,18 @@ def render_links(work: dict, extra: dict | None) -> str:
     return "".join(anchors)
 
 
-def render_work(work: dict, me_id: str, settings: dict) -> str:
+def render_work(work: dict, me_id: str, settings: dict, pitches: dict) -> str:
     wid = short_id(work["id"])
     title = html.escape(work.get("display_name") or work.get("title") or "Untitled")
     authors = format_authors(work, me_id)
     meta = format_venue(work)
     links = render_links(work, (settings.get("links") or {}).get(wid))
     note = (settings.get("notes") or {}).get(wid)
+    pitch = pitches.get(wid, "")
 
-    parts = [f'<div class="pub">', f'  <div class="pub-title">{title}</div>']
+    card_class = "pub" if pitch else "pub pub-nopitch"
+    parts = [f'<div class="{card_class}">', '<div class="pub-main">']
+    parts.append(f'  <div class="pub-title">{title}</div>')
     if authors:
         parts.append(f'  <div class="pub-authors">{authors}</div>')
     if meta:
@@ -177,27 +193,30 @@ def render_work(work: dict, me_id: str, settings: dict) -> str:
     if note:
         parts.append(f'  <div class="pub-note">{html.escape(note)}</div>')
     parts.append("</div>")
+    if pitch:
+        parts.append(f'<div class="pub-pitch">{html.escape(pitch)}</div>')
+    parts.append("</div>")
     return "\n".join(parts)
 
 
-def render_section(works: list[dict], me_id: str, settings: dict) -> str:
+def render_section(works: list[dict], me_id: str, settings: dict, pitches: dict) -> str:
     if not works:
         return ""
     blocks = ['<div class="pub-list">']
-    blocks.extend(render_work(work, me_id, settings) for work in works)
+    blocks.extend(render_work(work, me_id, settings, pitches) for work in works)
     blocks.append("</div>")
     return "\n".join(blocks)
 
 
-def render_publications(peer: list[dict], working: list[dict], me_id: str, settings: dict) -> str:
+def render_publications(peer: list[dict], working: list[dict], me_id: str, settings: dict, pitches: dict) -> str:
     out: list[str] = []
     if peer:
         out.append(f"## {SECTION_PEER}\n")
-        out.append(render_section(peer, me_id, settings))
+        out.append(render_section(peer, me_id, settings, pitches))
         out.append("")
     if working:
         out.append(f"## {SECTION_WORKING}\n")
-        out.append(render_section(working, me_id, settings))
+        out.append(render_section(working, me_id, settings, pitches))
         out.append("")
     return "\n".join(out).strip() + "\n"
 
@@ -251,7 +270,8 @@ def render_bibtex(works: list[dict]) -> str:
 # Main
 # ----------------------------------------------------------------------
 def main() -> None:
-    settings = tomllib.loads(SETTINGS_PATH.read_text(encoding="utf-8"))
+    settings = load_settings()
+    pitches = load_pitches()
     author = resolve_author(settings)
     me_id = short_id(author["id"])
 
@@ -271,7 +291,7 @@ def main() -> None:
     working = [w for w in works if w.get("type") in preprint_types]
 
     (ROOT / "_publications.md").write_text(
-        render_publications(peer, working, me_id, settings), encoding="utf-8"
+        render_publications(peer, working, me_id, settings, pitches), encoding="utf-8"
     )
     (ROOT / "publications.bib").write_text(render_bibtex(peer + working), encoding="utf-8")
 

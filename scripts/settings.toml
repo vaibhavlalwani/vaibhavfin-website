@@ -19,7 +19,13 @@ article_types = ["article", "review", "book-chapter", "book", "editorial", "lett
 preprint_types = ["preprint"]
 
 # Hide specific works (OpenAlex ids such as "W7134948737", or DOIs).
-exclude_ids = []
+# The four below are SSRN preprint duplicates of already-published papers.
+exclude_ids = [
+  "W7154056764",  # preprint duplicate of "Climate news betas and risk premia"
+  "W4392915635",  # preprint duplicate of "Mean-variance optimization and the cross-section of stock returns"
+  "W4406143718",  # preprint duplicate of "Inflation hedging via tracking portfolios in the BRICS markets"
+  "W4394698724",  # preprint duplicate of "Multi-factor Asset Pricing Models in Emerging and Developed Markets"
+]
 
 # ---- Manual extras keyed by OpenAlex work id -------------------
 # Add a PDF / code / dataset / slides link, a note, or force a
