@@ -11,10 +11,9 @@ Below, you'll find details of my research work. For questions on any specific pu
 
 ## Work in progress
 
-- Non-standard errors in machine learning portfolios.
-- Measuring climate risk betas.
-- 10-K intangibles disclosures and asset prices.
-- Factor timing and transaction costs.
+- Narratives from YouTube videos.
+- Anomalies and asset pricing factors database for India.
+- AI for portfolio choice and financial stability.
 
 Some of my working papers are available on my [SSRN author page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=0).
 

@@ -1,7 +1,7 @@
 ---
 title: "Vaibhav Lalwani"
 pagetitle: "Vaibhav Lalwani"
-description: "Assistant Professor of Finance at XLRI Xavier School of Management, Delhi-NCR."
+description: "Associate Professor of Finance at XLRI Xavier School of Management, Delhi-NCR."
 page-layout: full
 toc: false
 ---
@@ -12,7 +12,7 @@ toc: false
 
 # Vaibhav Lalwani {.unnumbered}
 
-<p class="hero-role">Assistant Professor, Finance</p>
+<p class="hero-role">Associate Professor, Finance</p>
 <p class="hero-aff">XLRI — Xavier School of Management · Delhi-NCR, India</p>
 <p class="hero-links">
 <a href="https://scholar.google.com/citations?user=yjKy31sAAAAJ&hl=en">Google Scholar</a> ·
@@ -23,7 +23,7 @@ toc: false
 </div>
 :::
 
-I am an Assistant Professor in Finance at the Xavier Labour Relations Institute's (XLRI) Delhi-NCR Campus. My research interests include **asset pricing**, **AI/ML in investment strategies**, and **climate risk**.
+I am an Associate Professor in Finance at the Xavier Labour Relations Institute's (XLRI) Delhi-NCR Campus. My research interests include **asset pricing**, **AI/ML in investment strategies**, and **climate risk**.
 
 I received the **Prof. M. J. Manohar Rao Young Economist Award for the Year 2024**, awarded by The Indian Econometric Society (TIES).
 

@@ -8,7 +8,7 @@ project:
 website:
   title: "Vaibhav Lalwani"
   site-url: "https://www.vaibhavfin.com"
-  description: "Vaibhav Lalwani — Assistant Professor of Finance, XLRI Xavier School of Management (Delhi-NCR)"
+  description: "Vaibhav Lalwani — Associate Professor of Finance, XLRI Xavier School of Management (Delhi-NCR)"
   favicon: assets/profile.svg
 
   navbar:
