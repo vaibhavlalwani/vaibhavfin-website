@@ -5,7 +5,6 @@ Reads scripts/settings.toml, queries the OpenAlex API for the author's
 works, and writes three files in the project root:
 
     _publications.md   ready-to-render publication list (included by research.qmd)
-    _metrics.md        a one-line citation / H-index summary
     publications.bib   a BibTeX export offered for download
 
 Run it any time with:
@@ -203,20 +202,6 @@ def render_publications(peer: list[dict], working: list[dict], me_id: str, setti
     return "\n".join(out).strip() + "\n"
 
 
-def render_metrics(author: dict) -> str:
-    stats = author.get("summary_stats") or {}
-    works = author.get("works_count", "")
-    citations = author.get("cited_by_count", "")
-    h_index = stats.get("h_index", "")
-    i10 = stats.get("i10_index", "")
-    pieces = [f"<strong>{works}</strong> works", f"<strong>{citations}</strong> citations"]
-    if h_index != "":
-        pieces.append(f"h-index <strong>{h_index}</strong>")
-    if i10 != "":
-        pieces.append(f"i10-index <strong>{i10}</strong>")
-    return '<p class="metrics">' + " &nbsp;·&nbsp; ".join(pieces) + "</p>\n"
-
-
 # ----------------------------------------------------------------------
 # BibTeX export
 # ----------------------------------------------------------------------
@@ -288,12 +273,10 @@ def main() -> None:
     (ROOT / "_publications.md").write_text(
         render_publications(peer, working, me_id, settings), encoding="utf-8"
     )
-    (ROOT / "_metrics.md").write_text(render_metrics(author), encoding="utf-8")
     (ROOT / "publications.bib").write_text(render_bibtex(peer + working), encoding="utf-8")
 
     print(
-        f"Updated: {len(peer)} peer-reviewed, {len(working)} working papers "
-        f"(author {me_id}, {author.get('cited_by_count')} citations)."
+        f"Updated: {len(peer)} peer-reviewed, {len(working)} working papers (author {me_id})."
     )
 
 

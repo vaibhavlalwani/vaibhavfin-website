@@ -5,9 +5,7 @@ page-layout: full
 toc: false
 ---
 
-Below, you'll find details of my research work. The lists below are updated automatically from my [OpenAlex](https://openalex.org) record — the last refresh date is shown in the site's [Git history](https://github.com/). For questions on any specific publication, feel free to send me an [email](mailto:vaibhav@xlri.ac.in).
-
-{{< include _metrics.md >}}
+Below, you'll find details of my research work. For questions on any specific publication, feel free to send me an [email](mailto:vaibhav@xlri.ac.in).
 
 {{< include _publications.md >}}
 

@@ -22,7 +22,7 @@ Live site target: **https://www.vaibhavfin.com**
 | `_includes/head.html` | Fonts and `<head>` additions |
 | `scripts/update_publications.py` | Pulls your works from OpenAlex |
 | `scripts/settings.toml` | ORCID, manual links, and notes |
-| `_publications.md`, `_metrics.md`, `publications.bib` | **Auto-generated — do not edit by hand** |
+| `_publications.md`, `publications.bib` | **Auto-generated — do not edit by hand** |
 | `.github/workflows/publish.yml` | Quarterly update + deploy |
 
 ## Local preview
@@ -53,7 +53,7 @@ Live site target: **https://www.vaibhavfin.com**
   October (and on every push, and on demand from the **Actions** tab).
 - The script queries OpenAlex for `orcid = "0000-0001-7476-5311"`, splits the
   results into **peer-reviewed publications** and **working papers**, and writes
-  `_publications.md`, `_metrics.md` and `publications.bib`.
+  `_publications.md` and `publications.bib`.
 - If anything changed, the bot commits it, then Quarto rebuilds and publishes to
   the `gh-pages` branch.
 - Nothing is scraped from Google Scholar (which has no API and forbids scraping);

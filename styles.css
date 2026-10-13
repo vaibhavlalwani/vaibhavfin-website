@@ -124,17 +124,6 @@ main.content a { color: var(--navy-soft); }
 .pub-link:hover { border-color: var(--accent); color: var(--accent-dark); }
 .pub-note { color: var(--muted); font-size: .88rem; margin-top: .35rem; }
 
-/* ---------- Metrics badge ---------- */
-.metrics {
-  background: var(--navy);
-  color: #fff;
-  border-radius: 8px;
-  padding: .8rem 1.2rem;
-  display: inline-block;
-  margin: .2rem 0 1rem;
-}
-.metrics strong { color: var(--accent); font-size: 1.15rem; }
-
 /* ---------- Course cards ---------- */
 .course-grid {
   display: grid;
