@@ -25,10 +25,7 @@ toc: false
 
 I am an Assistant Professor in Finance at the Xavier Labour Relations Institute's (XLRI) Delhi-NCR Campus. My research interests include **asset pricing**, **AI/ML in investment strategies**, and **climate risk**.
 
-::: {.callout-note icon=false}
-## Prof. M. J. Manohar Rao Young Economist Award — 2024
-Awarded by The Indian Econometric Society (TIES).
-:::
+I received the **Prof. M. J. Manohar Rao Young Economist Award for the Year 2024**, awarded by The Indian Econometric Society (TIES).
 
 ## Education
 
