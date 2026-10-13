@@ -9,15 +9,11 @@
 
 # ---- Peer-reviewed ----
 W7135175264 = "Tests whether climate-news betas are priced in US and Chinese stocks, and shows the answer swings widely with innocuous modelling choices. After correcting for multiple testing, no climate-risk premium survives."
-W7213254616 = "Examines whether timing factor exposures adds value once you subtract real-world transaction costs."
-W4412657378 = "Studies the stock recommendations made by financial influencers, and whether they carry information for prices and returns."
 W4410762803 = "Builds an asset-pricing factor from Sharpe-ratio-maximising mean-variance weights, and finds it is priced in the cross-section of stocks and bonds, out of sample and across countries."
 W4414479327 = "Shows that countries producing more diverse and unique goods tend to have calmer stock markets. The effect is concentrated in emerging markets and only kicks in past a complexity threshold."
 W4415987789 = "Shows that research-design choices move machine-learning portfolio returns so much that their nonstandard errors are up to five times the usual standard errors. Even so, ML still earns net-of-cost returns for about a third of portfolios."
-W4402623492 = "Looks at how climate risk and economic uncertainty show up in corporate bond prices."
 W4404935683 = "Builds portfolios that track unexpected CPI inflation in the BRICS markets. Statistical tracking beats the benchmarks, especially when inflation uncertainty is low."
 W4405480518 = "Adapts extreme bounds analysis to out-of-sample forecasting, and finds oil prices carry incremental information for aggregate and sectoral stock returns once combined with other oil variables."
-W4389093063 = "Investigates how adding green assets changes the risk and return of equity portfolios."
 W4318570892 = "Shows that most NSE factor indices stop earning their past returns once they go live, and none deliver alpha over size, value, and momentum."
 W3202839978 = "Tests 35 characteristics on every listed Indian firm and finds machine learning forecasts beat OLS, with the best portfolios earning significant returns."
 W3195573393 = "Finds sparse, short-lived signals in minute-by-minute cryptocurrency returns, with LASSO forecasts beating the usual benchmarks."
@@ -26,7 +22,7 @@ W2927948419 = "Documents over- and under-reaction after extreme intraday moves i
 W2998642182 = "Compares multi-factor models across ten markets. The Fama-French five-factor model prices stocks best in Australia, Canada, China, and the US, but not everywhere."
 W2958599895 = "Shows the link between aggregate earnings and real GDP growth holds across eight countries, and that forecasters underreact to aggregate earnings news."
 W2781655753 = "Finds two of four quality screens beat the market on BSE-500 stocks, even after controlling for size, value, and momentum."
-W2801337772 = "Finds little evidence that asset-pricing factors beyond the market predict future GDP or industrial production growth."
+W2801337772 = "Tests seven common asset-pricing factors against future GDP and industrial-production growth, and finds only the market factor predicts it. The predictive power reported in earlier studies looks to have faded."
 
 # ---- Working papers ----
 W7134948737 = "Uses a large language model to pull stock calls from YouTubers across nine countries. The calls predict one-month returns, but not longer-horizon moves or lasting profits."
