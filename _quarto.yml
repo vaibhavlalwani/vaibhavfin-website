@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - publications.bib
+
+website:
+  title: "Vaibhav Lalwani"
+  site-url: "https://www.vaibhavfin.com"
+  description: "Vaibhav Lalwani — Assistant Professor of Finance, XLRI Xavier School of Management (Delhi-NCR)"
+  favicon: assets/profile.svg
+
+  navbar:
+    pinned: true
+    left:
+      - text: "Bio"
+        href: index.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Research and Publications"
+        href: research.qmd
+      - text: "Data and Code"
+        href: data-code.qmd
+    right:
+      - icon: google
+        href: "https://scholar.google.com/citations?user=yjKy31sAAAAJ&hl=en"
+        aria-label: "Google Scholar"
+      - icon: linkedin
+        href: "https://in.linkedin.com/in/vaibhav-lalwani-34b21153"
+        aria-label: "LinkedIn"
+      - icon: envelope
+        href: "mailto:vaibhav@xlri.ac.in"
+        aria-label: "Email"
+
+  page-footer:
+    left: "© 2026 Vaibhav Lalwani"
+    center: "Built with [Quarto](https://quarto.org) · publications auto-updated from [OpenAlex](https://openalex.org)"
+    right:
+      - icon: google
+        href: "https://scholar.google.com/citations?user=yjKy31sAAAAJ&hl=en"
+      - icon: linkedin
+        href: "https://in.linkedin.com/in/vaibhav-lalwani-34b21153"
+      - icon: envelope
+        href: "mailto:vaibhav@xlri.ac.in"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    include-in-header: _includes/head.html
+    page-layout: full
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    grid:
+      body-width: 1040px
+      sidebar-width: 0px
+      margin-width: 0px
+      gutter-width: 1.5rem

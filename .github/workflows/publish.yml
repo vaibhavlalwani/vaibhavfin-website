@@ -1,0 +1,55 @@
+name: Update publications and publish site
+
+on:
+  schedule:
+    # 03:17 UTC on the 1st of January, April, July and October -> runs quarterly.
+    - cron: "17 3 1 1,4,7,10 *"
+  workflow_dispatch:        # allows a manual run from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write           # to commit refreshed publications
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Regenerate publications from OpenAlex
+        run: python scripts/update_publications.py
+
+      - name: Commit refreshed files (only if something changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _publications.md _metrics.md publications.bib
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update publications from OpenAlex [skip ci]"
+            git push
+          else
+            echo "No publication changes."
+          fi
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

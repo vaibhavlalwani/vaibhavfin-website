@@ -1,0 +1,37 @@
+# ============================================================
+#  Settings for the automatic Research & Publications builder
+#  (scripts/update_publications.py)
+#
+#  Everything here is optional except `orcid`. Edit any time and
+#  re-run:  python scripts/update_publications.py
+# ============================================================
+
+# Your ORCID iD. Used to locate your author record in OpenAlex.
+orcid = "0000-0001-7476-5311"
+
+# Optional shortcut: pin the OpenAlex author id directly (skips the ORCID lookup).
+openalex_author_id = "A5023072452"
+
+# OpenAlex work types listed under "Peer-reviewed publications".
+article_types = ["article", "review", "book-chapter", "book", "editorial", "letter", "report", "thesis"]
+
+# OpenAlex work types listed under "Working papers & preprints".
+preprint_types = ["preprint"]
+
+# Hide specific works (OpenAlex ids such as "W7134948737", or DOIs).
+exclude_ids = []
+
+# ---- Manual extras keyed by OpenAlex work id -------------------
+# Add a PDF / code / dataset / slides link, a note, or force a
+# "featured" highlight. Example (remove the # to activate):
+#
+# [links.W7213254616]
+# pdf = "https://example.org/paper.pdf"
+# code = "https://github.com/you/repo"
+#
+# [notes]
+# W7213254616 = "Forthcoming in the Borsa Istanbul Review."
+
+[links]
+
+[notes]

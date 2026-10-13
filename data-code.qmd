@@ -1,0 +1,37 @@
+---
+title: "Data and Code"
+description: "Datasets, code, and useful resources for research in Economics, Finance, and Accounting."
+page-layout: full
+toc: false
+---
+
+I am an avid R programmer. In this section I share code and material that I have found useful for my research, along with links to other helpful websites containing code and data.
+
+## My Datasets and Code
+
+- **International Asset Pricing Factor Dataset** — asset pricing factor portfolios for ten countries from 1993 to 2017 (built from Datastream data). The factors are created using book-to-market, price-to-earnings, investment, momentum, profitability, and quality characteristics. Refer to [this paper](https://www.sciencedirect.com/science/article/pii/S016517651830168X) for more information. *These factors are no longer updated.*
+
+## Websites and Other Useful Material
+
+Useful material for academics in Economics, Finance, and/or Accounting.
+
+### Readings / Websites
+
+<ul class="resource-list">
+<li><a href="https://econjwatch.org/">Econ Journal Watch</a> — a nice collection of articles with critical takes on topics of academic interest.</li>
+<li><a href="https://critical-finance-review.org/">Critical Finance Review</a> — critical papers on finance; a must-read for Finance/Accounting academics.</li>
+<li><a href="https://statmodeling.stat.columbia.edu/">Andrew Gelman's Blog</a> — causality, Bayesian statistics, and statistical pitfalls in pop-science research.</li>
+</ul>
+
+### Datasets and Code
+
+<ul class="resource-list">
+<li><a href="https://jkpfactors.com/">JKP Factors</a> — asset pricing factor data for many countries from Compustat Global.</li>
+<li><a href="https://www.openassetpricing.com/">Open Source Asset Pricing</a> — data on asset pricing factors plus code for generating factors from CRSP/Compustat.</li>
+</ul>
+
+### Data Science and Programming
+
+<ul class="resource-list">
+<li><a href="https://www.tidy-finance.org/">Tidy Finance</a> — the best way to learn R programming for financial analysis and research.</li>
+</ul>

@@ -1,0 +1,41 @@
+---
+title: "Vaibhav Lalwani"
+pagetitle: "Vaibhav Lalwani"
+description: "Assistant Professor of Finance at XLRI Xavier School of Management, Delhi-NCR."
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+<img class="hero-photo" src="assets/profile.svg" alt="Portrait of Vaibhav Lalwani">
+<div class="hero-text">
+
+# Vaibhav Lalwani {.unnumbered}
+
+<p class="hero-role">Assistant Professor, Finance</p>
+<p class="hero-aff">XLRI — Xavier School of Management · Delhi-NCR, India</p>
+<p class="hero-links">
+<a href="https://scholar.google.com/citations?user=yjKy31sAAAAJ&hl=en">Google Scholar</a> ·
+<a href="https://in.linkedin.com/in/vaibhav-lalwani-34b21153">LinkedIn</a> ·
+<a href="mailto:vaibhav@xlri.ac.in">vaibhav@xlri.ac.in</a>
+</p>
+
+</div>
+:::
+
+I am an Assistant Professor in Finance at the Xavier Labour Relations Institute's (XLRI) Delhi-NCR Campus. My research interests include **asset pricing**, **AI/ML in investment strategies**, and **climate risk**.
+
+::: {.callout-note icon=false}
+## Prof. M. J. Manohar Rao Young Economist Award — 2024
+Awarded by The Indian Econometric Society (TIES).
+:::
+
+## Education
+
+- **PhD in Finance and Accounting** — Indian Institute of Management Lucknow
+- **Masters in Finance and Control** — Department of Financial Studies, University of Delhi
+- **BA (Hons) in Business Economics** — Shivaji College, University of Delhi
+
+## Contact
+
+Email: [vaibhav@xlri.ac.in](mailto:vaibhav@xlri.ac.in)
