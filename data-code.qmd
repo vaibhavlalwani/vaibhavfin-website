@@ -11,6 +11,24 @@ I am an avid R programmer. In this section I share code and material that I have
 
 - **International Asset Pricing Factor Dataset** — asset pricing factor portfolios for ten countries from 1993 to 2017 (built from Datastream data). The factors are created using book-to-market, price-to-earnings, investment, momentum, profitability, and quality characteristics. Refer to [this paper](https://www.sciencedirect.com/science/article/pii/S016517651830168X) for more information. *These factors are no longer updated.*
 
+## Free Data Sources for Research
+
+### Asset Pricing and Factors
+
+<ul class="resource-list">
+<li><a href="https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html">Ken French Data Library</a> — the classic US and international factor portfolios, industry returns, and portfolio sorts.</li>
+<li><a href="https://www.aqr.com/Insights/Datasets">AQR Data Sets</a> — factor, style, and strategy return series (value, momentum, quality, betting-against-beta, and more).</li>
+<li><a href="http://www.econ.yale.edu/~shiller/data.htm">Robert Shiller's Online Data</a> — long-run stock market series, CAPE, earnings, and US home prices.</li>
+</ul>
+
+### Firm Fundamentals and Financial Data
+
+<ul class="resource-list">
+<li><a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html">Aswath Damodaran's Data</a> — cost of capital, betas, country risk premiums, and industry-level financial data.</li>
+<li><a href="https://www.sec.gov/edgar/searchedgar/companysearch">SEC EDGAR</a> — company filings (10-K, 10-Q, and more); bulk financials in the <a href="https://www.sec.gov/dera/data/financial-statement-data-sets">Financial Statement Data Sets</a>.</li>
+<li><a href="https://data.nasdaq.com/">Nasdaq Data Link</a> — a large catalogue of free macroeconomic and financial time series.</li>
+</ul>
+
 ## Websites and Other Useful Material
 
 Useful material for academics in Economics, Finance, and/or Accounting.
