@@ -101,11 +101,20 @@ Put your photo in `assets/` (e.g. `assets/profile.jpg`) and update the `<img>` i
 1. Create a GitHub repository and push this folder to the `main` branch.
 2. In **Settings → Pages**, set **Source** to the `gh-pages` branch.
 3. Push once (or run the workflow) so the `gh-pages` branch is created.
-4. Add the custom domain `www.vaibhavfin.com` under **Settings → Pages** and point
-   your DNS at GitHub Pages:
-   - `www` → `CNAME` → `<your-user>.github.io`
-   - four `A` records for the apex `vaibhavfin.com` → GitHub's IPs
-     (see <https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site>).
+4. The custom domain `www.vaibhavfin.com` is already set on the repo
+   (**Settings → Pages**). Point your DNS at GitHub Pages at the provider where
+   `vaibhavfin.com` is managed:
+
+   | Type | Name | Value |
+   |---|---|---|
+   | CNAME | `www` | `vaibhavlalwani.github.io` |
+   | A | `@` (apex `vaibhavfin.com`) | `185.199.108.153` |
+   | A | `@` | `185.199.109.153` |
+   | A | `@` | `185.199.110.153` |
+   | A | `@` | `185.199.111.153` |
+
+   Then remove the Google Sites custom-domain mapping for `www.vaibhavfin.com`,
+   and once DNS resolves tick **Enforce HTTPS** in **Settings → Pages**.
 5. Once the new site is live, you can retire the Google Sites version.
 
 ## Changing colours / fonts
